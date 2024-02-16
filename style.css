@@ -47,31 +47,33 @@ img{
   
 }
 
-@media (min-width: 800px) {
+@media (max-width: 600px) {
   .card {
   width:100%;
   display:inline;
-  clear:both;
 }
 
-.card image{
-  width:100%;
+img{
+  width: 100%;
   display: block;
 }
 
 h1{
-font-size:3rem;
+font-size: 2rem;
 text-align:center;
 }
 
 h2{
-  font-size:2rem;
+  font-size:1rem;
 }
 
 .logo{
   width:100px;
 }
 
+footer{
+  display:inline;
+}
 }
 
 
